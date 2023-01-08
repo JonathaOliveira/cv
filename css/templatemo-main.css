@@ -24,6 +24,20 @@ https://templatemo.com/tm-512-moonlight
 	display: none;
 }
 
+.contatos {
+	font-size: 5rem;
+	margin-left: -10rem;
+}
+
+.contatos ul li {
+	margin-top: 1rem;
+	margin-bottom: 5rem;
+}
+
+.menor em {
+	font-size: 3rem;
+}
+
 .seq-preloader {
   background: white;
   visibility: visible;
@@ -425,6 +439,10 @@ nav a:hover::before {
 	padding-left: 0px;
 }
 
+.container-fluid p {
+	text-align: justify;
+}
+
 .second-content .container-fluid .col-md-6 {
 	padding-right: 0px;
 	padding-left: 0px;
@@ -598,6 +616,12 @@ nav a:hover::before {
 .fourth-content .item:hover .hover-effect {
 	opacity: 1;
 	visibility: visible;
+}
+
+.hover-content p {
+	font-family: 'Dosis', sans-serif;
+	font-size: 0.5rem;
+	text-align: justify;
 }
 
 .fourth-content .item .hover-effect .hover-content {
@@ -786,14 +810,49 @@ nav a:hover::before {
 
 }
 
+@media (max-width: 1366px) {
+	.contatos {
+		font-size: 2.5rem;
+		margin-left: -10rem;
+	}
+
+	.contatos ul li {
+		margin-top: 1rem;
+		margin-bottom: 5rem;
+	}
+	
+	.menor em {
+		font-size: 1.5rem;
+	}
+}
+
 @media (max-width: 749px) {
 
 	.mobile-text p {
 		display: flex;
+		text-align: justify;
 	}
 
 	.left-content pre {
 		display: none;
+	}
+
+	.right-content pre {
+		display: none;
+	}
+
+	.contatos {
+		font-size: 2rem;
+		margin-left: -1rem;
+	}
+	
+	.contatos ul li {
+		margin-top: 1rem;
+		margin-bottom: 5rem;
+	}
+	
+	.menor em {
+		font-size: 1.5rem;
 	}
 
 	nav {
