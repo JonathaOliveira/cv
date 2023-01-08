@@ -828,6 +828,10 @@ nav a:hover::before {
 
 @media (max-width: 749px) {
 
+	.rodape {
+		margin-top: 5px;
+	}
+
 	.mobile-text p {
 		display: flex;
 		text-align: justify;
